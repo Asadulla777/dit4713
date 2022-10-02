@@ -1,0 +1,88 @@
+/* Universal selector */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Name selector */
+body {
+    background-image: url(../Image\ file/space_perspective.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div{
+    text-align: center;
+    border: 100px auto;
+    margin: 80px auto;
+    padding: 90px auto;
+    width: 600px;
+    height: 350px;
+    color:black;
+    border-radius: 20px;
+    font-style: italic;
+}
+h1 {
+ padding: 15px 20px 25px 30px;
+ color: whitesmoke;
+}
+input, label {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    color: brown;
+}
+input {
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 15px;
+}
+input[type="email"]:hover{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+input[type="password"]:hover{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+    color: aliceblue;
+    border: 1px solid black;
+}
+input[type="email"] {
+  transition: ease-in-out 0.6s;
+  margin: 10px auto;
+  padding: 15px auto;
+  border: 1px solid black;
+}
+input[type="password"] {
+    transition: ease-in-out 0.6s;
+    margin: 10px auto;
+    padding: 15px auto;
+  }
+  input[type="submit"] {
+    transition: ease-in-out 0.6s;
+    width: 100px;
+    margin: 15px auto;
+    padding: 5px auto;
+    color: black;
+  }
+  input[type="text"]:hover{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid black;
+}
+input[type="text"]{
+  transition: ease-in-out 0.6s;
+}
+  p a {
+    display: block;
+  }
+  a{
+    margin: 5px;
+  }
